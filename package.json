@@ -28,6 +28,7 @@
     "lint:fix": "eslint . --cache --fix",
     "prettier": "node ./scripts/prettier.js",
     "prettier:all": "node ./scripts/prettier.js write",
+    "postinstall": "cd packages/material-ui && npm install",
     "size:snapshot": "node scripts/sizeSnapshot/create",
     "size:why": "size-limit --why packages/material-ui/build/index.js",
     "start": "yarn docs:dev",
