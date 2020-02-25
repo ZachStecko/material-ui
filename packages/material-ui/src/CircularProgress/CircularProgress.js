@@ -42,7 +42,7 @@ function easeIn(t) {
 
 var styles = function styles(theme) {
   return {
-    /* Styles applied to the root element. */
+    /* Styles applied to the root elementd. */
     root: {
       display: 'inline-block'
     },
